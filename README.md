@@ -16,4 +16,4 @@
 * Tutorial 7. Fazendo o deploy com o Render: (https://github.com/csp1po/vue_3_mundo_real/tree/t7-start)
 
 
-## Este conteúdo foi baseado em um curso da `Vuemastery.com`
+### Este conteúdo foi baseado em um curso da `Vuemastery.com`
