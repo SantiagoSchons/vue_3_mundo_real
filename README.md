@@ -492,6 +492,7 @@ h2 {
 ```
 
 > Agora, esse título aparecerá apenas em uma rota ``Home``.
+> 
 > Remova a linha `<h1>Events For Good</h1>` do arquivo "**src/App.vue**".
 
 6.8 Por fim, para corrigir este problema de posicionamento da página ``About``, precisamos apenas remover alguns estilos padrão. Abra o arquivo "**src/views/AboutView.vue**" e altere o seu conteúdo pelo que está abaixo.
