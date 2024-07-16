@@ -511,6 +511,7 @@ h2 {
     align-items: center;
   }
 } */
+</style>
 ```
 
 Você verá algo como a figura abaixo.
