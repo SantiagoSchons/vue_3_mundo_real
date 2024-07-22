@@ -202,7 +202,7 @@ Procurando dentro do arquivo "**App.vue**", encontraremos um elemento ``<nav>``.
 
 ``<RouterLink>`` é um componente (da biblioteca ``vue-router``) cujo trabalho é vincular a uma rota específica. Você pode pensar nele como uma "etiqueta de âncora embelezada" (_anchor tag_).
 
-``<RouterView/>`` é essencialmente um espaço reservado (i.e. _placeholder_) onde o conteúdo do nosso componente ``view` será renderizado na página.
+``<RouterView/>`` é essencialmente um espaço reservado (i.e. _placeholder_) onde o conteúdo do nosso componente ``view`` será renderizado na página.
 
 Quando um usuário clica no link ``Home``, para onde ele será direcionado? Essa resposta está dentro do atributo ``to``: ``<RouterLink to="/">``.
 
