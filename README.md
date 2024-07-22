@@ -37,7 +37,7 @@ Chamamos isso de “_roteamento do lado do servidor_” porque o cliente está f
 
 > Em muitos casos, a visualização do nosso aplicativo que precisamos mostrar já foi carregada no navegador, portanto, não precisamos entrar em contato com o servidor para obtê-la. O **Vue Router** simplesmente atualiza a parte do aplicativo que está sendo exibida no momento.
 
-> Na verdade, com um tipo de roteamento como esse, nosso aplicativo funciona como um aplicativo de página única (i.e. SPA). Ver figura abaix. Mas, o que exatamente isso significa? É o que veremos no próximo passo.
+> Na verdade, com um tipo de roteamento como esse, nosso aplicativo funciona como um aplicativo de página única (i.e. SPA). Ver figura abaixo. Mas, o que exatamente isso significa? É o que veremos no próximo passo.
 
 ![spa_index_html](img_readme/spa_index_html.gif)
 
