@@ -209,7 +209,7 @@ Quando um usuário clica no link ``Home``, para onde ele será direcionado? Essa
 Ou seja, ele será levados para ``/``, o que significa que de acordo com a rota configurada em "**router.js**", o componente ``Home`` será carregado.
 
 
- 4.3 Agora abra o arquivo "src/router/index.js" e observe o trecho de código.
+ 4.3 Agora abra o arquivo "**src/router/index.js**" e observe o trecho de código.
 
 ```javascript
 {
