@@ -137,7 +137,7 @@ Observando o segundo objeto de rota, podemos ver que ele tem um caminho diferent
     }
 ```
 
-Quando o URL do navegador terminar com ``/about``, o componente ``About` será renderizado.
+Quando o URL do navegador terminar com ``/about``, o componente ``About`` será renderizado.
 
 Você provavelmente notou que também está importando o componente de maneira diferente. Em vez de importá-lo na parte superior do arquivo (duas primeiras linhas), como fizemos com ``HomeView``, estamos importando-o apenas quando a rota é realmente chamada. Como diz nos comentários, isso irá gerar um arquivo "**About.js**" separado, que só será carregado no navegador de alguém quando este alguém navegar para ``/about``. Esta é uma otimização de desempenho que não é necessária em nosso aplicativo pequeno e simples. Mas, à medida que um aplicativo cresce, pode ser útil dividir como ele é carregado em diferentes arquivos JavaScript, que só são carregados quando são necessários.
 
