@@ -29,7 +29,7 @@ Portanto, nossas tarefas a serem executadas neste tutorial incluem:
 
 Observe que existe um arquivo ``db.json`` no repositório do tutorial.
 
-1.1 Abra o arquivo "**db.json**" e observe o conteúdo dele.
+1.1 Crie o arquivo "**db.json**" na pasta raiz.
 
 ```javascript
 {
@@ -222,7 +222,7 @@ export default {
 <script setup>
 import { ref, onMounted } from 'vue'
 import EventCard from '@/components/EventCard.vue'
-~~import axios from 'axios'~~
+import axios from 'axios'
 import EventService from '@/services/EventService.js'
 
 const events = ref(null)
