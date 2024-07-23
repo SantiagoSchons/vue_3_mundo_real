@@ -29,7 +29,7 @@ Portanto, nossas tarefas a serem executadas neste tutorial incluem:
 
 Observe que existe um arquivo ``db.json`` no repositório do tutorial.
 
-1.1 Crie o arquivo "**db.json**" na pasta raiz.
+1.1 Crie o arquivo "**db.json**" na pasta raiz do nosso projeto e inclua nele o conteúdo abaixo.
 
 ```javascript
 {
