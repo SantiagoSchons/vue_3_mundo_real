@@ -214,7 +214,7 @@ export default {
 > 
 > E por fim, podemos exportar um método que obtém nossos eventos, usando nosso novo Axios ``apiClient``.
 
-> Como você pode ver, ainda temos acesso ao método ``get`` do Axios e estamos passando ``'/events'`` como o argumento ao fazer essa chamada. Esta _string_ será adicionada ao nosso ``baseURL``, e então a requisição será feita para: ‘**https://my-json-server.typicode.com/Code-Pop/Real-World_Vue-3/events**’.
+> Como você pode ver, ainda temos acesso ao método ``get`` do Axios e estamos passando ``'/events'`` como o argumento ao fazer essa chamada. Esta _string_ será adicionada ao nosso ``baseURL``, e então a requisição será feita para: ‘https://my-json-server.typicode.com/Code-Pop/Real-World_Vue-3/events’.
 
 4.3 Em seguida, só precisamos fazer uso deste novo ``EventService`` em nosso componente ``EventListView.vue``, excluindo a importação do Axios, importando o ``EventService`` e executando sua chamada ``getEvents()``. Abra o arquivo "**src/views/EventListview.vue**" e substitua seu conteúdo para o que está abaixo.
 
