@@ -303,7 +303,7 @@ const router = createRouter({
 export default router
 ```
 
-5.6 Como agora estamos exibindo uma lista de eventos no que costumava ser nossa página “**Home page**”, vamos atualizar o HTML interno do ``RouterLink`` para essa visualização. Abra o arquivo "src/App.vue" e atualize seu conteúdo para:
+5.6 Como agora estamos exibindo uma lista de eventos no que costumava ser nossa página “**Home page**”, vamos atualizar o HTML interno do ``RouterLink`` para essa visualização. Abra o arquivo "**src/App.vue**" e atualize seu conteúdo para:
 
 ```javascript
 <template>
