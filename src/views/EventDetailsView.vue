@@ -28,6 +28,6 @@ onMounted(() => {
     <p>{{ event.time }} on {{ event.date }} @ {{ event.location }}</p>
     <p>{{ event.description }}</p>
     <p>{{ props.id }}</p>
-    <p>teste</p>
+    <p>{{ props }}</p>
   </div>
 </template>
