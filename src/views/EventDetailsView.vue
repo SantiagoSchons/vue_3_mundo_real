@@ -10,7 +10,6 @@ const props = defineProps({
 
 const event = ref(null)
 
-
 onMounted(() => {
   EventService.getEvent(props.id)
   .then((response) => {
