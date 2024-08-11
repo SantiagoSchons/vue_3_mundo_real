@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 20.
       - name: run install, build
-        run: |
+        run: | 
           npm install
           npm run build
